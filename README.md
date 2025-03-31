@@ -29,6 +29,11 @@ This repository contains my personal Mac setup configuration and documentation o
 - [Arc](https://arc.net/) - Modern web browser
 - [Firefox](https://www.mozilla.org/firefox/) - Web browser
 
+## System Utilities
+
+- [Rectangle](https://rectangleapp.com/) - Window management with keyboard shortcuts
+- [Mos](https://mos.caldis.me/) - Smooth scrolling and separate scroll directions
+
 ## Productivity & Entertainment
 
 - [Todoist](https://todoist.com/) - Task management
@@ -81,6 +86,8 @@ brew install --cask obsidian
 brew install --cask obs
 brew install --cask firefox
 brew install --cask arc
+brew install --cask rectangle
+brew install --cask mos
 ```
 
 ## Configuration Files
