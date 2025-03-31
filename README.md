@@ -23,18 +23,25 @@ This repository contains my personal Mac setup configuration and documentation o
 - [Visual Studio Code](https://code.visualstudio.com/) - Code editor
 - [Cursor](https://cursor.sh/) - AI-powered code editor
 
-## Productivity & Entertainment
+## Web Browsers
 
 - [Chrome](https://www.google.com/chrome/) - Web browser
+- [Arc](https://arc.net/) - Modern web browser
+- [Firefox](https://www.mozilla.org/firefox/) - Web browser
+
+## Productivity & Entertainment
+
 - [Todoist](https://todoist.com/) - Task management
 - [Spotify](https://www.spotify.com/) - Music streaming
 - [Notion](https://www.notion.so/) - Note-taking and organization
+- [Obsidian](https://obsidian.md/) - Note-taking and knowledge management
 - [Yomu](https://apps.apple.com/us/app/yomu-pdf-reader/id489909020) - PDF reader
 
 ## Media & Utilities
 
 - [VLC](https://www.videolan.org/vlc/) - Media player
 - [uTorrent](https://www.utorrent.com/) - BitTorrent client
+- [OBS Studio](https://obsproject.com/) - Screen recording and streaming
 
 ## Setup Instructions
 
@@ -70,6 +77,10 @@ brew install --cask visual-studio-code
 brew install --cask spotify
 brew install --cask vlc
 brew install --cask notion
+brew install --cask obsidian
+brew install --cask obs
+brew install --cask firefox
+brew install --cask arc
 ```
 
 ## Configuration Files
