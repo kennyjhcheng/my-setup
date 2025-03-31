@@ -1,0 +1,38 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+	name = Kenny Cheng
+	email = kenny.cheng@bytedance.com
+
+[alias]
+	co = checkout
+	rs=restore --staged
+	co=checkout
+	cob=checkout -b
+	cfg=config --global
+	cfge=config --global -e
+	cfgl=config --global -l
+	p=push
+	s=status
+	ss=status --short
+	ssb=status --short --branch
+	l=log     --graph     --topo-order     --decorate     --all     --boundary     --date=short     --abbrev-commit     --pretty=format:'%Cgreen%ad %Cred%h%Creset -%C(yellow)%d%Creset %s %Cblue[%aN]%Creset %Cblue%G?%Creset'
+	lg=log --graph
+	m=merge
+	pf=pull --ff-only
+	rr=remote
+	rrs=remote show
+	w=whatchanged
+	cm=commit -m
+	cam=commit -am
+	a=add
+	aa=add *
+	st=stash
+	stiu=stash -u
+	stium=stash -u -m
+	stm=stash -m
+	stl=stash list
+	cldry=clean -n -d
+	clf=clean -f
+	clfdir=clean -fd
+	
